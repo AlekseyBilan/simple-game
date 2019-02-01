@@ -1,0 +1,22 @@
+.play-field {
+  font-size: 0;
+    div {
+        cursor: pointer;
+        background: #1397ff;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+    &.active{
+      background: #d6c41e;
+    }
+    &.green{
+      background: #65d657;
+    }
+    &.red{
+      background: #d62025;
+    }
+    &:hover{
+        border: 1px solid rgba(102, 98, 99, 0.97);
+    }
+  }
+}
